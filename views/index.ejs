@@ -14,6 +14,7 @@
 
   <title>ReForm</title>
 
+  
   <link rel="stylesheet" href="/css/ary.css">
   <script src="/js/typing.js" defer></script>
   <script src="/js/therapist.js" defer></script>
@@ -26,7 +27,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" /> 
 
   <!-- Custom styles for this template -->
   <link href="/css/style.css" rel="stylesheet" />
@@ -163,6 +164,8 @@
 <!-- Adding In the Therapist Cards  -->
 <br>
 
+  
+
 <div id="therapist-card">
   <div class="wrap">
     <div class="box">
@@ -211,11 +214,94 @@
     </div>
   </div>
 </div>
+<br><br><br><br><br>
+
+<h3 style="text-align: center; font-size: 65px;">What We Offer?</h3>
+<br>
+<br>
+
+<!-- Adding another slider  -->
+<div class="pictures-do">
+  <img src="/images/heal graphic.png" width="600px" alt="">
+<div class="pic-ctn" style="margin-top: 100px;">
+  <img src="" alt="">
+
+  <style>
+
+.picture-do{
+  display: inline;
+}
+
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  
+  display: inline;
+  height: 200px;
+  position: absolute;
+  width: 90vw;
+  height: 300px;
+ 
+  
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  right: calc(48% - 100px);
+  
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+  </style>
+  
+  <img src="https://images.unsplash.com/photo-1710185220451-53c7a9b00a78?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" alt="" class="pic">
+  <img src="https://images.unsplash.com/photo-1709490893793-0947fe525f01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" alt="" class="pic">
+  <img src="https://images.unsplash.com/photo-1683009427619-a1a11b799e05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" alt="" class="pic">
+  <img src="https://images.unsplash.com/photo-1708791416184-fe5f5ed40bad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" alt="" class="pic">
+  <img src="https://images.unsplash.com/photo-1707343848655-a196bfe88861?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" alt="" class="pic">
+</div>
+
+</div>
+
 
 <br><br><br><br><br>
 <h2 style="text-align: center; font-size: 100px">What People Has to Say?</h2>
-
-<!-- Caraousel here please  -->
 
 
 
@@ -241,7 +327,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    zoom:150%
+    zoom:140%
 } 
 .innerdiv
 {
