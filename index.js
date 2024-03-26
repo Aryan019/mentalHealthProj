@@ -8,7 +8,7 @@ const path = require('path')
 // app.use(ejslayout)
 
 // middleware telling the engine to use the ejs as ejsMate
-app.engine('ejs',ejsMate)
+ 
 
 // Middlewares here please  
 app.set('view engine','ejs');
